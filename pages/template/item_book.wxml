@@ -1,0 +1,13 @@
+<template name="item">
+  <view class="book" bindtap="bookDetail" id="{{url}}">
+    
+    <view class="book-image">
+      <image src="{{src}}" mode="scaleToFill"></image>
+    </view>
+
+    <view class="book-text">
+      <text> {{text}}</text>
+    </view>
+    
+  </view>
+</template>

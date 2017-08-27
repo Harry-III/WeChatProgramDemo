@@ -1,0 +1,47 @@
+/* pages/book/book.wxss */
+.books {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-one{
+    margin: 0 auto;  
+    height: 200px;  
+    width: 100%;  
+
+}
+
+.swiper-one image {
+  width: 100%;
+  height: 100%;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 20rpx;
+}
+
+.book-image {
+  width:150rpx;
+  height: 150rpx;
+}
+
+.book-image image {
+  width: 100%;
+  height: 100%;
+}
+
+.book-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20rpx;
+}
+
+.book-text text{
+  color: #f00;
+  font-size:12px;
+  line-height:20px;
+}

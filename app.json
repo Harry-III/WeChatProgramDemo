@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/book/book",
+    "pages/book/bookDetail",
+    "pages/music/music",
+    "pages/video/video",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#bfbfbf",
+    "selectedColor":"#d81e06",
+    "borderStyle": "white",
+    "list":[{
+      "selectedIconPath":"asset/book_select.png",
+      "iconPath":"asset/book_normal.png",
+      "text":"图书",
+      "pagePath":"pages/book/book"
+    },{
+      "selectedIconPath": "asset/music_select.png",
+      "iconPath": "asset/music_normal.png",
+      "text": "音乐",
+      "pagePath": "pages/music/music"
+    },{
+      "selectedIconPath": "asset/video_select.png",
+      "iconPath": "asset/video_normal.png",
+      "text": "视频",
+      "pagePath": "pages/video/video"
+    }]
+  }
+
+}

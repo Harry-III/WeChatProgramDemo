@@ -1,0 +1,11 @@
+<view class="bookDetail">
+  <view class="imageStyle">
+    <image src="{{imagesSrc}}" mode="scaleToFill"></image>
+  </view>
+  <text>{{origin_title}}</text>
+  <text>{{author}}</text>
+  <text>作者简介：{{author_intro}}</text>
+
+  <text>内容简介：{{summary}}</text>
+
+</view>
