@@ -30,11 +30,11 @@ Page({
       success:function(response) {
         var book = response.data;
         that.setData({
-          imagesSrc:book.image,
-          origin_title:book.origin_title,
+          imagesSrc:book.images.large,
+          origin_title:book.title,
           author:book.author,
-          author_intro:book.author_intro,
-          summary:book.summary
+          author_intro:"  " + book.author_intro,
+          summary:"  " + book.summary
         })
 
         wx.hideLoading();
