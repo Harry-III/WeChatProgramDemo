@@ -1,3 +1,13 @@
-<view class="container">
-    这里是音乐天堂
+<view class="musicContainer">
+    <import src="../template/item_book.wxml"/>
+  <view class="musics">
+    <view wx:for="{{musics}}" wx:key="song_id">
+        <template is="item" data="{{...item}}"></template>
+    </view>
+  </view>
+
+     <view class="music-end" hidden="{{hiddenEnd}}">
+    <icon type="cancel" color="#00f" size="25"/>no more!
+  </view>
+
 </view>

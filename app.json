@@ -3,6 +3,7 @@
     "pages/book/book",
     "pages/book/bookDetail",
     "pages/music/music",
+    "pages/music/musicDetail",
     "pages/video/video",
     "pages/index/index"
   ],

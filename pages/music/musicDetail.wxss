@@ -1,0 +1,6 @@
+/* pages/music/musicDetail.wxss */
+
+.audio-view {
+  width: 100%;
+  padding: 20rpx;
+}

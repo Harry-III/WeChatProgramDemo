@@ -1,1 +1,7 @@
 /* pages/music/music.wxss */
+@import "/pages/book/book.wxss";
+
+.music-end {
+  display: flex;
+  justify-content: center;
+}

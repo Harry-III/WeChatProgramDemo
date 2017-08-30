@@ -1,0 +1,19 @@
+<view class="">
+  <!-- <view class="image">
+    <image src="{{src}}"></image>
+  </view>
+  
+  <view class="music-status">
+    <image src="{{isPlaying}}"></image>
+  </view> -->
+  <view class="audio-view">
+  <audio src="{{src}}" id="onlyOne" poster="{{poster}}" name="{{name}}" author="{{author}}" controls="{{true}}"></audio>
+  </view>
+
+  <button type="primary" bindtap="audioPlay">播放</button>
+  <button type="primary" bindtap="audioPause">暂停</button>
+
+  <button type="primary" bindtap="audio14">这是当前播放时间为14s</button>
+  <button type="primary" bindtap="audioStart">回到开头</button>
+   
+</view>
